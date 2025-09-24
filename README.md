@@ -17,16 +17,7 @@ Cílem je vytvořit webovou stránku, která při každém načtení zobrazí n�
 ## Mohlo by se hodit
 
 Jako zdroj obrázků může použít třeba [Unsplash](https://unsplash.com) – web s obrázky a fotografiemi [zdarma](https://unsplash.com/license). Obrázky z něj můžeš
-stáhnout do své aplikace nebo je můžeš odkazovat přímo z jejich webu. Pokud chceš odkázat přímo na fotku s kódem `XXX` (kód je těch cca 10 znaků na konci URL
-fotky), můžeš použít následující odkaz:
-
-```
-https://source.unsplash.com/XXX
-https://source.unsplash.com/XXX/1600x900
-```
-
-Druhá varianta určuje požadované rozměry obrázku – pokud má obrázek jiný poměr stran, ořízne se na požadovaný poměr stran. Přesné rozměry obrazovky uživatele
-ale neřeš – obrázek se pomocí CSS natáhne nebo smrští tak, aby pokryl celou stránku.
+stáhnout do své aplikace.
 
 Jako zdroj citátů můžeš použít soubor `src/main/resources/citaty.txt`, který je součástí staženého projektu.
 
@@ -88,7 +79,7 @@ Uživatel by totiž mohl do kódu podstrčit třeba značku `<script>` a spustit
 
 ### Odkazy
 
-* odkaz na stránku [Lekce 2](https://java.czechitas.cz/2024-jaro/java-2-online/lekce-2.html)
+* odkaz na stránku [Lekce 2](https://java.czechitas.cz/2025-podzim/java-2-online/lekce-2.html)
 * Java SE 21 [Javadoc](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/) – dokumentace všech tříd, které jsou součástí základní Javy ve verzi 21.
 * Dokumentace [Spring Boot](https://spring.io/projects/spring-boot#learn) – odsud je anotace `@SpringBootApplication` a třída `SpringApplication`.
 * Dokumentace [Spring Framework](https://spring.io/projects/spring-framework#learn) – odsud jsou anotace `@Controller`, `@GetRequest` a třída `ModelAndView`.
