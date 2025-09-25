@@ -80,7 +80,7 @@ Uživatel by totiž mohl do kódu podstrčit třeba značku `<script>` a spustit
 ### Odkazy
 
 * odkaz na stránku [Lekce 2](https://java.czechitas.cz/2025-podzim/java-2-online/lekce-2.html)
-* Java SE 21 [Javadoc](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/) – dokumentace všech tříd, které jsou součástí základní Javy ve verzi 21.
+* Java SE 21 [Javadoc](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/module-summary.html) – dokumentace všech tříd, které jsou součástí základní Javy ve verzi 21.
 * Dokumentace [Spring Boot](https://spring.io/projects/spring-boot#learn) – odsud je anotace `@SpringBootApplication` a třída `SpringApplication`.
 * Dokumentace [Spring Framework](https://spring.io/projects/spring-framework#learn) – odsud jsou anotace `@Controller`, `@GetRequest` a třída `ModelAndView`.
 * Dokumentace [Freemarker](https://freemarker.apache.org/docs/index.html) – šablonovací systém pro HTML použitý v projektu.
