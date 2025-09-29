@@ -8,25 +8,36 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     color: white;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
 }
 
+
+
 blockquote {
-    font-size: 64px;
+    font-size: 55px;
     text-shadow: 0 0 10px black;
     line-height: 1.3em;
     padding: 2em;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(223, 214, 214, 0.4);
     border-radius: 1em;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 }
+
+
+
+
+
+
+
