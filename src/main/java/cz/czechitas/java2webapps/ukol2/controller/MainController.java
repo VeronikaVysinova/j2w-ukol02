@@ -17,6 +17,7 @@ import java.util.stream.Collectors;
 
 @Controller
 public class MainController {
+    List<String> citat = readAllLines("citaty.txt");
 
 
     public MainController() throws IOException {
@@ -55,12 +56,11 @@ public class MainController {
         return citaty.get(index);
     }
 
-   List<String> citat = readAllLines("citaty.txt");
-
 
     public static int nahodnyIndex (List<String> citaty) {   //metoda pro generovani indexu obrazku
         Random random = new Random();
-        return random.nextInt(citaty.size());
+        int i = random.nextInt(citaty.size()) + 1;
+        return i;
     }
 
 
